@@ -42,7 +42,7 @@ functions:
     events:
       - http:
           path: /pago/obtener
-          method: get
+          method: post
           cors: true
 
   listarPagos:
@@ -50,7 +50,7 @@ functions:
     events:
       - http:
           path: /pago/listar
-          method: get
+          method: post
           cors: true
           
   actualizarPago:
